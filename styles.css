@@ -29,3 +29,14 @@ header .logo {
 header .logo span {
     color: #78ff00;
 }
+
+header ul {
+    position: relative;
+    display: flex;
+}
+
+header ul li {
+    list-style: none;
+    margin: 0 20px;
+}
+
