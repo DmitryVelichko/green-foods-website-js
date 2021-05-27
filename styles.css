@@ -11,6 +11,17 @@
     padding: 0 100px;
 }
 
+.container:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 350px;
+    height: 100%;
+    background: #333;
+    z-index: -2;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -40,3 +51,12 @@ header ul li {
     margin: 0 20px;
 }
 
+header ul li a {
+    position: relative;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 4px 10px;
+    color: #333;
+    
+
+}
