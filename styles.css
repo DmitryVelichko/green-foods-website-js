@@ -96,4 +96,5 @@ header ul li a.active:before {
 
 .content {
     display: flex;
+    justify-content: space-between;
 }
