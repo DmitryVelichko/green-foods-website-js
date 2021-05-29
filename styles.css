@@ -117,5 +117,5 @@ header ul li a.active:before {
 
 .content .bannerText p {
     font-size: 18px;
-
+    color: #333;
 }
