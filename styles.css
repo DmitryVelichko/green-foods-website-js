@@ -118,4 +118,5 @@ header ul li a.active:before {
 .content .bannerText p {
     font-size: 18px;
     color: #333;
+    line-height: 1.8em;
 }
