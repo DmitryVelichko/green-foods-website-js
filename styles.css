@@ -101,3 +101,8 @@ header ul li a.active:before {
     margin-top: 50px;
 }
 
+.content .bannerText {
+    position: relative;
+    
+}
+
