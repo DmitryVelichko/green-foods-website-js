@@ -109,4 +109,5 @@ header ul li a.active:before {
 
 .content .bannerText h2 {
     font-size: 54px;
+    text-transform: uppercase;
 }
