@@ -104,6 +104,9 @@ header ul li a.active:before {
 .content .bannerText {
     position: relative;
     max-width: 500px;
-    
+    margin-right: 50px;
 }
 
+.content .bannerText h2 {
+    font-size: 54px;
+}
