@@ -97,4 +97,7 @@ header ul li a.active:before {
 .content {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
 }
+
