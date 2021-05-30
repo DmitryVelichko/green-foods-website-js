@@ -167,3 +167,7 @@ header ul li a.active:before {
     transition: 0.5s;
 }
 
+.icons {
+    display: flex;
+    justify-content: space-between;
+}
