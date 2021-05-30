@@ -184,3 +184,7 @@ header ul li a.active:before {
     list-style: none;
     margin-right: 30px;
 }   
+
+.icons .sci li img {
+    display: inline-block;
+}
