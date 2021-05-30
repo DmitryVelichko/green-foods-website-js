@@ -173,3 +173,10 @@ header ul li a.active:before {
     align-items: center;
     padding: 50px 0;
 }
+
+.icons .sci,
+.icons .controls {
+    position: relative;
+    display: flex;
+}
+
