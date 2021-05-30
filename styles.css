@@ -180,3 +180,7 @@ header ul li a.active:before {
     display: flex;
 }
 
+.icons .sci li {
+    list-style: none;
+    margin-right: 30px;
+}   
