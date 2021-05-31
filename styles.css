@@ -187,4 +187,11 @@ header ul li a.active:before {
 
 .icons .sci li img {
     display: inline-block;
+    max-height: 24px;
+    transition: 0.1s ease-in-out;
 }
+
+.icons .sci li:hover img {
+    transform: translateY(-10px);
+}
+
