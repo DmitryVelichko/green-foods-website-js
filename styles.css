@@ -195,3 +195,8 @@ header ul li a.active:before {
     transform: translateY(-10px);
 }
 
+.icons .controls li {
+    list-style: none;
+    margin-left: 20px;
+}
+
