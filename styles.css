@@ -107,6 +107,10 @@ header ul li a.active:before {
     margin-right: 50px;
 }
 
+.content .bannerText div {
+    display: none;
+}
+
 .content .bannerText h2 {
     font-size: 54px;
     text-transform: uppercase;
