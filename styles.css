@@ -111,6 +111,10 @@ header ul li a.active:before {
     display: none;
 }
 
+.content .bannerText div.active {
+    display: initial;
+}
+
 .content .bannerText h2 {
     font-size: 54px;
     text-transform: uppercase;
