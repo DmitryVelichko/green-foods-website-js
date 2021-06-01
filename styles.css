@@ -282,7 +282,12 @@ header ul li a.active:before {
     }
 
     header ul li a {
-        color: #333;
+        color: #333 !important;
         font-size: 36px;
+    }
+
+    header ul li a:hover:before,
+    header ul li a.active:before {
+        width: 100%;
     }
 }
