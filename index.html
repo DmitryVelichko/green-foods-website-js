@@ -79,22 +79,19 @@
 
     let slideshowText = document.getElementById('slideshowText');
     let slidesText = slideshowText.getElementsByTagName('div');
-    let index = 0;
+    let index1 = 0;
 
     function nextSlideText() {
-        slidesText[index].classList.remove('active');
-        index = (index + 1) % slidesText.length;
-        slidesText[index].classList.add('active');
+        slidesText[index1].classList.remove('active');
+        index1 = (index1 + 1) % slidesText.length;
+        slidesText[index1].classList.add('active');
         }
 
     function prevSlideText() {
-        slidesText[index].classList.remove('active');
-        index = (index - 1 + slidesText.length) % slidesText.length;
-        slidesText[index].classList.add('active');
+        slidesText[index1].classList.remove('active');
+        index1 = (index1 - 1 + slidesText.length) % slidesText.length;
+        slidesText[index1].classList.add('active');
         }
-    
-    
-nextSlide();
-    </script>
+ </script>
 </body>
 </html>
