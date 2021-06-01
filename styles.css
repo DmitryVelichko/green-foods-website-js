@@ -225,6 +225,10 @@ header ul li a.active:before {
     max-height: 24px;
 }
 
+.menuIcon {
+    display: none;
+}
+
 
 
 @media (max-width: 992px) {
@@ -264,8 +268,7 @@ header ul li a.active:before {
     }
 
     header ul {
-        /* display: none; */
-        display: initial;
+        display: none;
         position: fixed;
         top: 0;
         left: 0;
@@ -274,6 +277,10 @@ header ul li a.active:before {
         background: #fff;
         z-index: 10000;
         padding: 100px 0;
+    }
+
+    header.active ul {
+        display: initial;
     }
 
     header ul li {
@@ -289,5 +296,19 @@ header ul li a.active:before {
     header ul li a:hover:before,
     header ul li a.active:before {
         width: 100%;
+    }
+
+    .menuIcon {
+        display: initial;
+        position: fixed;
+        right: 50px;
+        cursor: pointer;
+        padding: 8px;
+        z-index: 100000;
+        background: #fff url(images/menu-of-three-lines.png);
+        width: 34px;
+        height: 34px;
+        background-repeat: no-repeat;
+        background-position: 6px;
     }
 }
