@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="container">
-        <header class="active" id="navbar">
+        <header id="navbar">
             <a href="#" class="logo">Green<span>Foods</span></a>
             <ul>
                 <li><a href="#" class="active">Home</a></li>
@@ -17,7 +17,7 @@
                 <li><a href="#">About</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
-            <span class="menuIcon"></span>
+            <span class="menuIcon" onclick="menuToggle();"></span>
         </header>
         <div class="content">
             <div class="bannerText" id="slideshowText">
@@ -93,6 +93,11 @@
         index1 = (index1 - 1 + slidesText.length) % slidesText.length;
         slidesText[index1].classList.add('active');
         }
+
+    function menuToggle() {
+        let nav = document.getElementById('navbar');
+        nav.classList.toggle('active');
+    }
  </script>
 </body>
 </html>
