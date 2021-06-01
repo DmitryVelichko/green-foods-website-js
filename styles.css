@@ -206,6 +206,7 @@ header ul li a.active:before {
 
 .icons .sci li:hover img {
     transform: translateY(-10px);
+    filter: invert(20%);
 }
 
 .icons .controls li {
@@ -223,4 +224,6 @@ header ul li a.active:before {
     display: inline-block;
     max-height: 24px;
 }
+
+
 

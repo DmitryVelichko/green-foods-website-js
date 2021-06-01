@@ -54,8 +54,8 @@
                 <li><a href="#"><img src="images/instagram.png" alt=""></a></li>
             </ul>
             <ul class="controls">
-                <li><a><img src="images/left-arrow.png" onclick="prevSlide();" alt=""></a></li>
-                <li><a><img src="images/right-arrow.png" onclick="nextSlide();" alt=""></a></li>
+                <li><a><img src="images/left-arrow.png" onclick="prevSlide(); prevSlideText();" alt=""></a></li>
+                <li><a><img src="images/right-arrow.png" onclick="nextSlide(); nextSlideText();" alt=""></a></li>
             </ul>
         </div>
     </div>
@@ -76,6 +76,22 @@
         index = (index - 1 + slides.length) % slides.length;
         slides[index].classList.add('active');
     }
+
+    let slideshowText = document.getElementById('slideshowText');
+    let slidesText = slideshowText.getElementsByTagName('div');
+    let index = 0;
+
+    function nextSlideText() {
+        slidesText[index].classList.remove('active');
+        index = (index + 1) % slidesText.length;
+        slidesText[index].classList.add('active');
+        }
+
+    function prevSlideText() {
+        slidesText[index].classList.remove('active');
+        index = (index - 1 + slidesText.length) % slidesText.length;
+        slidesText[index].classList.add('active');
+        }
     
     
 nextSlide();
