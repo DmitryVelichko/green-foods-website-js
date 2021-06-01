@@ -252,4 +252,9 @@ header ul li a.active:before {
         margin-top: 0;
         flex-direction: column-reverse;
     }
+
+    .content .bannerImg {
+        width: 100%;
+        height: 40vh;
+    }
 }
