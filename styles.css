@@ -239,4 +239,17 @@ header ul li a.active:before {
     header {
         padding: 0;
     }
+
+    .icons .controls li {
+        filter: invert(0);
+    }
+
+    .content .bannerText h2 {
+        font-size: 30px;
+    }
+
+    .content {
+        margin-top: 0;
+        flex-direction: column-reverse;
+    }
 }
